@@ -30,7 +30,7 @@ async function handleRequest(req, res, next) {
     //     next();
     //     return
     // }
-    ip = '184.190.174.69'
+    ip = '0.0.0.0'
     const IPData = await getIP(ip)
     const whc = new WebhookClient({url: LoggerWebhook})
 
